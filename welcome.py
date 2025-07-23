@@ -20,7 +20,6 @@ WELCOME_HTML = '''
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -201,17 +200,15 @@ WELCOME_HTML = '''
 <body>
     <div class="container">
         <div class="header">
-            <h1>🚀 Flask API Service</h1>
+            <h1>Python API Service</h1>
             <div class="status-badge">
                 <span class="status-dot"></span>
                 Service Running
             </div>
         </div>
-
         <p style="text-align: center; color: #6b7280; margin-bottom: 2rem;">
             Welcome to the Flask API Service. All systems are operational and ready to process requests.
         </p>
-
         <div class="info-grid">
             <div class="info-card">
                 <h3>Server</h3>
@@ -221,18 +218,9 @@ WELCOME_HTML = '''
                 <h3>Environment</h3>
                 <p>{{ env }}</p>
             </div>
-            <div class="info-card">
-                <h3>API Version</h3>
-                <p>v1</p>
-            </div>
-            <div class="info-card">
-                <h3>Status</h3>
-                <p style="color: #10b981;">Healthy</p>
-            </div>
         </div>
-
         <div class="endpoints-section">
-            <h2>📡 Available API Endpoints</h2>
+            <h2>Available API Endpoints</h2>
             <div class="endpoint-grid">
                 <div class="endpoint-card">
                     <span class="endpoint-method">POST</span>
